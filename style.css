@@ -1,0 +1,20 @@
+#contact-section {
+  color: black;
+  text-align: center;
+}
+
+.contact-links {
+  height: auto;
+  width: 100%;
+}
+
+.contact-img {
+  height: 100px;
+  width: 100px;
+  padding: 15px;
+}
+
+#git-logo {
+  height: 100px;
+  width: 125px;
+}
