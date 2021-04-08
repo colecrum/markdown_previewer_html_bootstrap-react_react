@@ -6,6 +6,12 @@ body {
   position: relative;
 }
 
+@media screen and (max-width: 1000px) {
+  #pre-title {
+    margin-top: 60px;
+  }
+}
+
 /* SIGN-OFF --------------------------------------------*/
 
 /*designed by & contact*/
@@ -44,5 +50,9 @@ body {
 }
 
 @media screen and (max-width: 800px) and (orientation: landscape) {
+  .contact-links {width: 100%;}
+}
+
+@media screen and (max-width: 1000px) {
   .contact-links {width: 100%;}
 }

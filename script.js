@@ -119,7 +119,7 @@ class MarkdownEditor extends React.Component {
 
       React.createElement("div", { className: "col-md-6" }, /*#__PURE__*/
       React.createElement("div", { className: "col text-center" }, /*#__PURE__*/
-      React.createElement("h2", { style: subtitleStyle }, "Preview")), /*#__PURE__*/
+      React.createElement("h2", { id: "pre-title", style: subtitleStyle }, "Preview")), /*#__PURE__*/
 
       React.createElement("div", {
         style: previewStyle,
